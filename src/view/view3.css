@@ -1,0 +1,54 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root{
+    --borderRad: 4px;
+    --color1: #1b1b1b;
+    --color7: #292929;
+    --color2: #6d6d6d;
+    --color3: #585858;
+    --color6: #494949;
+    --color5: #302f2f;
+    --color4: #f3f3f3;
+}
+body{
+    background-color: var(--color1);
+}
+p{
+    color: var(--color4);
+    margin: 0 0 5px 0;
+}
+.conatiner{
+    display: flex;
+    justify-content: center;
+}
+.command-container{
+    /* outline: 2px solid red; */
+}
+#inputR{
+    border-radius: var(--borderRad);
+    border: none;
+    background: var(--color2);
+    color: var(--color4);
+    width: 300px;
+    height: 25px;
+    margin: 0 0 10px 0;
+    padding: 0 5px;
+}
+#inputS{
+    border-radius: var(--borderRad);
+    border: none;
+    width: 300px;
+    height: 200px;
+    background: var(--color2);
+    color: var(--color4);
+    padding: 0 5px;
+    resize: none;
+}
+.btnAccept{
+    border-radius: var(--borderRad);
+    width: 300px;
+    height: 50px;
+    margin: 5px 0 0 5px;
+    padding: 0 5px;
+}

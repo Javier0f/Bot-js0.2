@@ -1,0 +1,19 @@
+{
+  "name": "bot-js0.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^20.1.0",
+    "puppeteer": "^16.2.0",
+    "qrcode": "^1.5.1",
+    "whatsapp-web.js": "^1.17.1"
+  }
+}
